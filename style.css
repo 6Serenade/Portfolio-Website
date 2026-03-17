@@ -162,3 +162,18 @@ iframe, embed {
 .pdf-button:hover {
     background-color: #005fa3;
 }
+
+.content {
+    display: flex;
+    align-items: center;   /* vertically aligns image and text */
+    gap: 20px;             /* space between image and text */
+}
+
+.content img {
+    width: 200px;          /* adjust as needed */
+    height: auto;
+}
+
+.content .text {
+    max-width: 600px;      /* optional, keeps text readable */
+}

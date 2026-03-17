@@ -27,3 +27,43 @@
 
     </ul>
 </nav>
+
+<section>
+<h1 class="section-title">Assessment Task 2</h1>
+<p class="body-text">As part of the UTS subject 41055 Professional Experience Review, I am required to complete several 
+        artefacts which demonstrate my professional ability for the engineering workforce. Links to these artefacts can be found below 
+        or in the dropdown menu, a brief description of each is given here. </p>
+</section>
+
+<section>
+    <p class="sub-title">2a - Draft portfolio V2: Cover letter for simulated job opportunity</p>
+                <p class="body-text">Below is an embedded view of a cover letter I have written for a fake
+                    mechanical engineeringjob opportunity. It is crucial to note that this is the only explicitly 
+                    new artefact for this task. Updates and improvements conducted since Assessment 1 can be found
+                    throughout and within this website.</p>
+    <button onclick="togglePDF('pdf1')" class="pdf-button">Open</button>
+    <div id="pdf1" style="display:none;"><embed src="files/2a_JChu_Cover_Letter.pdf" width="100%" height="1000px"></embed></div>
+
+    <p class="sub-title">2b - Peer review of other students draft portfolio</p>
+                <p class="body-text">Below is an embedded view of my peer review comments or a download link to one.</p>
+    <button onclick="togglePDF('pdf2')" class="pdf-button">Open</button>
+    <div id="pdf2" style="display:none;"><embed src="files/.pdf" width="100%" height="1000px"></div>
+
+        <p class="sub-title">2c - Summary of received feedback to implement</p>
+                <p class="body-text">Below are my summary of feedback received for this assessment task.</p>
+    <button onclick="togglePDF('pdf3')" class="pdf-button">Open</button>
+    <div id="pdf3" style="display:none;"><embed src="files/.pdf" width="100%" height="1000px"></div>
+
+</section>
+
+<script>
+function togglePDF(id) {
+    var viewer = document.getElementById(id);
+
+    if (viewer.style.display === "none" || viewer.style.display === "") {
+        viewer.style.display = "block";
+    } else {
+        viewer.style.display = "none";
+    }
+}
+</script>
